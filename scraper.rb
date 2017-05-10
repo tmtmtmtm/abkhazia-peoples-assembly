@@ -27,8 +27,8 @@ def scrape_list(url)
       image:  td.parent.css('img.preview_picture/@src').text,
       term:   5,
     }
-    %i(image source).each { |i| data[i] = URI.join(url, URI.escape(data[i])).to_s unless data[i].to_s.empty? }
-    ScraperWiki.save_sqlite(%i(id term), data)
+    %i[image source].each { |i| data[i] = URI.join(url, URI.escape(data[i])).to_s unless data[i].to_s.empty? }
+    ScraperWiki.save_sqlite(%i[id term], data)
   end
 end
 
