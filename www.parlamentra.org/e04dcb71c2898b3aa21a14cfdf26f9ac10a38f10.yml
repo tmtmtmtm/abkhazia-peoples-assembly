@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 26 Aug 2018 06:35:47 GMT
+    - Mon, 27 Aug 2018 06:49:49 GMT
     Content-Type:
     - text/html; charset=UTF-8
     Connection:
@@ -31,11 +31,11 @@ response:
     X-Powered-Cms:
     - Bitrix Site Manager (64953507157ea42f051d171f9985b0c5)
     Set-Cookie:
-    - BITRIX_SM_GUEST_ID=381705; expires=Wed, 21-Aug-2019 06:35:47 GMT; Max-Age=31104000;
+    - BITRIX_SM_GUEST_ID=382272; expires=Thu, 22-Aug-2019 06:49:49 GMT; Max-Age=31104000;
       path=/
-    - BITRIX_SM_LAST_VISIT=26.08.2018+09%3A35%3A47; expires=Wed, 21-Aug-2019 06:35:47
+    - BITRIX_SM_LAST_VISIT=27.08.2018+09%3A49%3A49; expires=Thu, 22-Aug-2019 06:49:49
       GMT; Max-Age=31104000; path=/
-    - PHPSESSID=24031a92be62e5915d51ed7ba4f27bd4; path=/; HttpOnly
+    - PHPSESSID=3ea1134eeabf5df55106655106e0868a; path=/; HttpOnly
     - siteType=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
     Expires:
     - Thu, 19 Nov 1981 08:52:00 GMT
@@ -46,8 +46,8 @@ response:
     X-Frame-Options:
     - SAMEORIGIN
     Content-Length:
-    - '10196'
+    - '10200'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 26 Aug 2018 06:39:41 GMT
+recorded_at: Mon, 27 Aug 2018 06:53:46 GMT
